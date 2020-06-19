@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="public/css/main.css">
+    <script>
+    </script>
+</head>
+<body>
+
+        <h1 id="header">勝負ニャ～！<br>さいしょはグー、ジャンケン！</h1>
+
+        <div id="main">
+            <img id="han" src="public/images/hand/gu2.png" alt="ジャンケン">
+        </div>
+
+        <div id="btn">
+            <input id="gu" src="public/images/hand/gu2.png" type="image" name="button1">
+            <input id="choki" src="public/images/hand/choki2.png" type="image" name="button2">
+            <input id="pa" src="public/images/hand/pa2.png" type="image" name="button3">
+        </div>
+
+        <div class="btn2">
+            <button id="re">もう1回！</button>
+            <button id="back" onclick="history.back()">おしまい</button>
+        </div>
+
+        <script src="js/janken2.js"></script>
+
+</body>
+</html>

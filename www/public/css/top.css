@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+/* iPad Pro 12.9 W2048 H2732 */
+@media screen and (max-width:1024px) and (max-height:1366px) {
+body {
+    width: 95%;
+    position: absolute;
+    top: 10px; 
+    background-color: pink;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#main {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#topcat {
+    width: 85%;
+    height: auto;
+}
+
+#stbtn {
+    width: 70%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background-image: linear-gradient(to bottom,silver,gray);
+    box-shadow: 0 5px black;
+    border-radius: 50px;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.7em;
+    color: white;
+}
+
+#stbtn:active {
+    box-shadow: none;
+    position: relative;
+    top: 105px; 
+}
+}
+
+/* iPad Pro 10.5in W1668 H2224 */
+@media screen and (max-width:834px) and (max-height:1112px) {
+body {
+    width: 95%;
+    position: absolute;
+    top: 10px; 
+    background-color: pink;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#main {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#topcat {
+    width: 80%;
+    height: auto;
+}
+
+#stbtn {
+    width: 70%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,silver,gray);
+    box-shadow: 0 5px black;
+    border-radius: 50px;
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.8em;
+    color: white;
+}
+
+#stbtn:active {
+    box-shadow: none;
+    position: relative;
+    top: 105px; 
+}
+}
+
+/* iPhoneXR W828 H1792 */
+  @media screen and (max-width:414px) and (max-height:896px) {
+  body {
+      width: 95%;
+      position: absolute;
+      top: 0; 
+      background-color: pink;
+  }
+  
+  h1 {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      position: relative;
+      top: 60px;
+  }
+  
+  #main {
+      position: relative;
+      top: 100px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  #topcat {
+      width: 95%;
+      height: 500px;
+  }
+  
+  #stbtn {
+      width: 75%;
+      position: relative;
+      top: 125px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 20px;
+      background-image: linear-gradient(to bottom,silver,gray);
+      box-shadow: 0 5px black;
+      border-radius: 50px;
+      font-size: 30px;
+      font-weight: bolder;
+      text-align: center;
+      letter-spacing: 0.8em;
+      color: white;
+  }
+  
+  #stbtn:active {
+      box-shadow: none;
+      position: relative;
+      top: 130px; 
+  }
+  }
+
+/* iPhoneX W1125 H2436 */
+@media screen and (max-width:375px) and (max-height:812px) {
+  body {
+      width: 95%;
+      position: absolute;
+      top: 0; 
+      background-color: pink;
+  }
+
+  h1 {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      position: relative;
+      top: 55px;
+  }
+
+  #main {
+      position: relative;
+      top: 100px;
+      display: flex;
+      justify-content: center;
+  }
+
+  #topcat {
+      width: 95%;
+      height: 450px;
+  }
+
+  #stbtn {
+      width: 75%;
+      position: relative;
+      top: 150px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 20px;
+      background-image: linear-gradient(to bottom,silver,gray);
+      box-shadow: 0 5px black;
+      border-radius: 50px;
+      font-size: 30px;
+      font-weight: bolder;
+      text-align: center;
+      letter-spacing: 0.6em;
+      color: white;
+  }
+
+  #stbtn:active {
+      box-shadow: none;
+      position: relative;
+      top: 155px; 
+  }
+}
+
+/* iPhone8 Plus W1242 H2208 */
+@media screen and (max-width:414px) and (max-height:736px) {
+body {
+    width: 95%;
+    position: absolute;
+    top: 10px; 
+    background-color: pink;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#main {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#topcat {
+    width: 95%;
+    height: auto;
+}
+
+#stbtn {
+    width: 75%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,silver,gray);
+    box-shadow: 0 5px black;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.8em;
+    color: white;
+}
+
+#stbtn:active {
+    box-shadow: none;
+    position: relative;
+    top: 105px; 
+}
+}
+
+/* iPhone8 W750 H1334 */
+@media screen and (max-width:375px) and (max-height:675px) {
+body {
+    width: 95%;
+    position: absolute;
+    top: 0; 
+    background-color: pink;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#main {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#topcat {
+    width: 90%;
+    height: auto;
+}
+
+#stbtn {
+    width: 75%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: linear-gradient(to bottom,silver,gray);
+    box-shadow: 0 5px black;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.7em;
+    color: white;
+}
+
+#stbtn:active {
+    box-shadow: none;
+    position: relative;
+    top: 105px; 
+}
+}
